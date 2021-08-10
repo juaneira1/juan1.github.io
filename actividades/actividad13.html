@@ -1,0 +1,76 @@
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <title>Para pagina la mia</title>
+    </head>
+    <body>
+        <form action="/Users/Public/Documents/Sena/trimestre3/index.html" method="post">
+            <fieldset>
+                <legend>Diligencie los campos</legend>
+               <label for="Usuario">Usuario:</label>
+               <input type="text" name="Usuario" id="Usuario" required="required" /><br />
+               <label for="Contraseña">Contraseña:</label>
+               <input type="Contraseña" name="Contraseña" id="Contraseña" required="required" />
+               <br />
+               <label for="Avatar">Avatar:</label>
+               <input type="Avatar" name="Avatar" id="Avatar" required="Avatar" />
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Crea tu avatar</legend>
+                <p>¿Cual es tu gremio?<select name="devices">
+                    <option value="Mago">Mago</option>
+                    <option value="Elfo">Elfo</option>
+                    <option value="Ogro">Ogro</option>
+                    <option value="Cazador">Cazador</option>
+                    <option value="Humano">Humano</option>
+                <br />
+                </fieldset>
+                </select>
+                </p>
+                <br />
+                <p>Sexo</p>
+                <input id="Femenino" type="radio" name="gender" value="F">
+               <label for="Femenino">Femenino</label>
+               <input id="Masculino" type="radio" name="gender" value="M">
+               <label for="Masculino">Masculino</label> 
+            <br />
+            <br />
+            <br />
+            <p>Que edad tiene tu avatar?</p>
+            <input type="date" name="depart" />
+            <input type="submit" value="Submit" />
+            <br />
+            <br />
+            <p>Selecciona tus habilidades<br />
+                (Puede seleccionar más de una Habilidad manteniendo presionada la
+                tecla control)</p>
+            <select name="Habilidades " size="3" multiple="multiple">
+                <br />
+                <option value="Curacion" selected="selected">Curacion</option>
+                <option value="Fuerza">Fuerza
+                <option value="Multiplicacion" selected="Multiplicacion">Multiplicacion
+                <option value="Teletranspotacion">Teletranspotacion</option>
+                </select>
+            <br />
+            <br />
+        <p>Escribe tu reseña:</p>
+        </label><textarea name="comments" cols="50" rows="5"></textarea>
+        <br />
+        <br />
+        <br />
+        <p>Sube la imagen de tu avatar en formato jpg:</p>
+        <select name="Imagen de avatar" size="3" multiple="multiple">
+            <input type="file" name="Imagen de avatar" /><br />
+            <input type="submit" value="Subelo" />
+            <br />
+            <br />
+            <br />
+        <input type="checkbox"/>
+            Acepta nuestros terminos.
+        <br />
+        <input type="submit" value="Estas Listo Ahora" />
+            </fieldset>
+        </form>
+    </body>
+    </html>
